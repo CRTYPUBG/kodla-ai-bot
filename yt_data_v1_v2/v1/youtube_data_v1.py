@@ -2,10 +2,10 @@ from googleapiclient.discovery import build
 import json
 
 # Buraya kendi API anahtarını yaz
-API_KEY = "AIxxx" # YOUTUBE_API_KEY= APİ KEY ALIN # https://console.cloud.google.com/apis/dashboard?hl=tr
-burdan git youtube data v1 aç mage de api key yaz
+API_KEY = "AIxxx" # APİ KEY ALIN # https://console.cloud.google.com/apis/dashboard?hl=tr
+# burdan git youtube data v1 aç mage de api key yaz
 
-CHANNEL_ID = "UCxxxx"  # hedef kanalın ID'si : https://www.youtube.com/account_advanced Burdaki : Kanal Kimliği Al
+CHANNEL_ID = "UCxxxx"  # hedef kanalın ID'si : https://www.youtube.com/account_advanced Burdaki : Kanal
 
 youtube = build("youtube", "v3", developerKey=API_KEY)
 
